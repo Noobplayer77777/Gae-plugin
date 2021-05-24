@@ -1,0 +1,26 @@
+name: FirstPlugin
+version: ${project.version}
+main: me.noob.minecraft.firstplugin.FirstPlugin
+api-version: 1.16
+authors: [ noobplayer77777 ]
+description: this is my first plugin
+commands:
+  Hell:
+    description: this command will send you to hell
+    aliases: [die]
+
+  Vote1:
+    description: vote command for first link
+    aliases: [vote1]
+
+  Vote2:
+    description: vote command for second link
+    aliases: [vote2]
+
+  Map:
+    description: map of the world
+    aliases: [map]
+
+  Heven:
+    description: troll XD
+    aliases: [heven,heaven]
