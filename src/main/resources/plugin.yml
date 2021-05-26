@@ -1,5 +1,5 @@
 name: FirstPlugin
-version: ${project.version}
+version: 2.0-SNAPSHOT
 main: me.noob.minecraft.firstplugin.FirstPlugin
 api-version: 1.16
 authors: [ noobplayer77777 ]
@@ -24,3 +24,19 @@ commands:
   Heven:
     description: troll XD
     aliases: [heven,heaven]
+
+  Ping:
+    description: Ping
+    aliases: [ping]
+
+  Creative:
+    description: puts u in creative mode
+    aliases: [gmc,creative,C]
+
+  Survival:
+    description: puts you in survivial mode
+    aliases: [gms,survival,S]
+
+  Noob:
+    description: Fun command
+    aliases: [noob,pog,god]

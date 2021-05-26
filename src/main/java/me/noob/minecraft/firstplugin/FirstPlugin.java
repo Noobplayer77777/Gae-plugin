@@ -12,7 +12,7 @@ public final class FirstPlugin extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         // Plugin startup logic
-        System.out.println("FIRSTPLUGIN v1 HAS LOADED FULLY");
+        System.out.println("FIRSTPLUGIN v2 HAS LOADED FULLY");
         getServer().getPluginManager().registerEvents(new PlayerJoin(), this);
         getServer().getPluginManager().registerEvents(new OnDeath(), this);
         getServer().getPluginManager().registerEvents(new Leavebed(),this);
@@ -21,6 +21,10 @@ public final class FirstPlugin extends JavaPlugin implements Listener {
         getCommand("Vote2").setExecutor(new Vote2());
         getCommand("Map").setExecutor(new Map());
         getCommand("Heven").setExecutor(new Heven());
+        getCommand("Ping").setExecutor(new Ping());
+        getCommand("Creative").setExecutor(new Creative());
+        getCommand("Survival").setExecutor(new Survival());
+        getCommand("Noob").setExecutor(new Noob());
     }
 
 
