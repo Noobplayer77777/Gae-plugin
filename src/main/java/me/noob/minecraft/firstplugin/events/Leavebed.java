@@ -12,7 +12,7 @@ public class Leavebed implements Listener {
     public void onLeaveBed(PlayerBedLeaveEvent event) {
         //here is the code when a player leaves the bed
         Player player = event.getPlayer();
-        player.sendMessage(ChatColor.GOLD + "GooD Morning");
+        player.sendMessage(ChatColor.GOLD + "GOOD Morning");
     }
 
 }
